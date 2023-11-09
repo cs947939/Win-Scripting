@@ -4,7 +4,7 @@ uwfmgr filter enable
 rem Adding exceptions 
 
 rem Domain Join
-Powerhsell -ExecutionPolicy Bypass -File "DomainJoinsecurecredinput.ps1
+Powerhsell -ExecutionPolicy Bypass -File "DomainJoinsecurecredinput.ps1"
 echo Domain Join Completed
 rem boot into setup mode
 
