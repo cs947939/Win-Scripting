@@ -1,4 +1,9 @@
 @echo off
+rem Init UWF overlay
+uwfmgr overlay set-type Disk
+uwfmgr overlay set-size 3048
+uwfmgr overlay set-warningthreshold 1024
+uwfmgr overlay set-criticalthreshold 2048
 rem Adding exceptions 
 
 rem Domain Join
