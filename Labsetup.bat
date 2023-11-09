@@ -9,6 +9,7 @@ echo preparing for step 2
 echo Data loss waring close script to prevent data loss. Press any key to continue with data loss
 pause
 Powershell -ExecutionPolicy Bypass -File "setupmode.ps1"
+xcopy setup.bat C:\setup.bat
 rem Rebooting
 echo restarting you have more than 3 minutes to finish any tasks
 shutdown -r -f -t 400
