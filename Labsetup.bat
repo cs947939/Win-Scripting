@@ -1,6 +1,5 @@
 @echo off
-echo Enabling UWF
-uwfmgr filter enable
+
 rem Adding exceptions 
 
 rem Domain Join
