@@ -1,5 +1,4 @@
 @echo off
-uwfmgr filter enable
 net user UWF-Admin Admin1234!@munchy /add
 net localgroup Administrators UWF-Admin /add
 net user Administrator ueww1234munchy111
