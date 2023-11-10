@@ -4,4 +4,4 @@ net user normaluser Munchy /add
 net user UWF-Admin /delete
 net localgroup Administrators normaluser /add
 net user Administrator munhcyadmin12!
-uwfmgr servicing enable
+
