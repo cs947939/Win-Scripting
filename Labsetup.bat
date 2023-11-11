@@ -1,4 +1,8 @@
 @echo off
+echo upgrade to enterprise
+slmgr /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43
+echo install UWF
+dism /enable-feature /featureName:Client-UnifiedWriteFilter
 rem Init UWF overlay
 uwfmgr overlay set-type Disk
 uwfmgr overlay set-size 3048
