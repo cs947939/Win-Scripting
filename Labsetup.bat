@@ -47,4 +47,4 @@ xcopy setup.bat C:\setup.bat
 xcopy undosetup.ps1 C:\undosetup.ps1
 rem Rebooting
 echo restarting you have more than 3 minutes to finish any tasks
-shutdown -r -f -t 400
+shutdown -r -f -t 240
